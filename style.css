@@ -1,0 +1,73 @@
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.botao-reserva {
+    border: 1px solid burlywood;
+    padding: 5px 10px;
+    background-color:burlywood;
+    border-radius: 12px;
+}
+
+.botao-reserva a {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: auto;
+    padding: 5px;
+}
+
+.conteudoMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.banner {
+    position: relative;
+    background-image: url("/assets/pexels-polina-tankilevitch-4518650.jpg");
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.conteudoBanner {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.linkBanner {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+/* fazer conteudoBanner comçar em start e linkBanner no end e arrumar
+com padding ate ficar no meio */
