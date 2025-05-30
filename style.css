@@ -106,6 +106,22 @@ li {
     color: white;
 }
 
+/* Conteudo Principal */
+
+.decoraçao-titulo {
+    padding: 0px;
+}
+
+.decoraçao-titulo {
+    display: flex;
+    font-size: 30px;
+    padding-left: 15px;
+    margin-inline-start: 20px;
+    border-left: 5px solid black;
+}
+
+/* Rodapé */
+
 footer {
     background-color: #FFF3D1;
     padding: 20px;
