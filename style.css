@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    margin: 0px;
 }
 
 header {
@@ -37,37 +38,142 @@ li {
     align-items: center;
     height: 70px;
     width: auto;
-    padding: 5px;
+    padding: 10px;
 }
 
 .conteudoMenu {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 5px;
+    padding: 10px;
 }
 
 .banner {
     position: relative;
-    background-image: url("/assets/pexels-polina-tankilevitch-4518650.jpg");
-    background-size: cover;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
+    height: 80vh;
+    overflow: hidden;
 }
 
 .conteudoBanner {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
 }
 
-.linkBanner {
+.conteudoBanner h1 {
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+.conteudoBanner p {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.conteudoBanner a {
+    font-size: 20px;
+    padding-left: 20px;
+    padding: 5px 10px;
+}
+
+.banner-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.botao-banner {
     display: flex;
-    gap: 1rem;
-    margin-top: 1.5rem;
+    align-items: start;
+    padding: 5px;
 }
 
-/* fazer conteudoBanner comçar em start e linkBanner no end e arrumar
-com padding ate ficar no meio */
+.botao-reserva-banner {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.botao-reserva-banner:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: #FFF3D1;
+    padding: 20px;
+}
+
+.ediçao-rodape {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.ediçao-rodape h3 {
+    display: flex;
+    align-items: baseline;
+}
+
+.primeira-coluna {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.primeira-coluna h3 {
+    padding-left: 10px;
+}
+
+.primeira-coluna p {
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.segunda-coluna {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.segunda-coluna a {
+    text-align: left;
+}
+
+.segunda-coluna a:hover {
+    text-decoration: underline;
+}
+
+.segunda-coluna ul {
+    padding: 0;
+}
+
+.terceira-coluna {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.direitos {
+    text-align: center;
+    color: #333;
+}
+
+.direitos::before {
+    content: '';
+    display: block;
+    width: 1000px;
+    height: 1px;
+    background-color: black;
+    margin: 20px auto;
+}
