@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +8,9 @@
 </head>
 <body>
     <header>
-        <div>
+        <div class="logo">
             <img src="/assets/Logo.png" alt="Logo do Site" class="logo">
+            <h1>DogZilla</h1>
         </div>
         <div>
         <nav>
@@ -31,25 +32,102 @@
                 <h1>O Dogão que Vai Explodir seu Paladar!</h1>
                 <p><strong>Sabor, suculência e alegria em cada mordida. <br> Vem provar o verdadeiro hotdog raiz!</strong></p>
                 <ul class="botao-banner">
-                    <li><a href="/paginas/cardapio.html" class="botaoPrimario">Ver Cardápio</a></li>
-                    <li><a class="botao-reserva-banner" href="/paginas/reserva.html" class="botaoSecundario">Reservar Mesa</a></li>
+                    <li><a href="/paginas/cardapio.html">Ver Cardápio</a></li>
+                    <li><a class="botao-reserva-banner" href="/paginas/reserva.html">Reservar Mesa</a></li>
                 </ul>
             </div>
         </div>
     </section>
 
     <!-- continuar lanches -->
-    <main class="lanches-principais">
+    <main>
         <h1 class="decoraçao-titulo">Populares</h1>
 
+        <div class="conteudo">
+
+    <div class="lanches-principais">
         <div class="lanche">
-            <img src="" alt="">
-            <h2>Nome do prato</h2>
-            <p>descriçao do prato</p>
-            <h3>preço</h3>
-            <a href="">Botão</a>
+            <img src="/assets/pexels-vikeph-17312405.jpg" alt="Imagem de HotDog">
+            <h2>Hot Dog Tradicional</h2>
+            <p>Pão, salsicha, queijo, ketchup, mostarda e batata palha.</p>
+            <h3>R$ 10,00</h3>
+            <a class="ver-mais" href="">Ver Mais</a>
         </div>
 
+        <div class="lanche">
+            <img src="/assets/drew-dempsey-8OH1QhIhWEM-unsplash.jpg" alt="Imagem de HotDog">
+            <h2>Hot Dog com Purê</h2>
+            <p>Pão, salsicha, purê de batata, vinagrete, milho, ervilha e batata palha.</p>
+            <h3>R$ 12,00</h3>
+            <a class="ver-mais" href="">Ver Mais</a>
+        </div>
+
+        <div class="lanche">
+            <img src="/assets/ion-ivan-sipilov-UtmW0bm1OOA-unsplash.jpg" alt="Imagem de HotDog">
+            <h2>Hot Dog com Bacon</h2>
+            <p>Pão, salsicha, molho cheddar, bacon picado e batata palha.</p>
+            <h3>R$ 14,00</h3>
+            <a class="ver-mais" href="">Ver Mais</a>
+        </div>
+
+        <div class="lanche">
+            <img src="/assets/ball-park-brand-HSFZtU_74JQ-unsplash.jpg" alt="Imagem de HotDog">
+            <h2>Hot Dog Picante</h2>
+            <p>Pão, salsicha, molho apimentado, vinagrete e queijo ralado.</p>
+            <h3>R$ 13,00</h3>
+            <a class="ver-mais" href="">Ver Mais</a>
+        </div>
+
+        <div class="lanche">
+            <img src="/assets/mr_wdh-PPwYBaC_g8M-unsplash.jpg" alt="Imagem de HotDog">
+            <h2>Hot Dog Duplo</h2>
+            <p>Pão com duas salsichas, molho especial, queijo, milho, batata palha e vinagrete.</p>
+            <h3>R$ 16,00</h3>
+            <a class="ver-mais" href="">Ver Mais</a>
+        </div>
+
+        <div class="lanche">
+            <img src="/assets/pexels-kamila-bairam-80608214-12123657.jpg" alt="Imagem de HotDog">
+            <h2>Hot Dog Veggie</h2>
+            <p>Pão, salsicha vegetal, purê de batata, alface, milho e molho de ervas.</p>
+            <h3>R$ 14,00</h3>
+            <a class="ver-mais" href="">Ver Mais</a>
+        </div>
+
+    </div>
+
+    <aside class="barra-lateral">
+        <h1>Nossa Culinária</h1>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/LT_OBVhVOhE" frameborder="0"></iframe>
+            </div>
+        <h1>Reserva de Mesa</h1>
+
+        <form action="#" method="post">
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo"><br><br>
+        
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" placeholder="seu@email.com"><br><br>
+        
+            <label for="data">Data</label><br>
+            <input type="date" id="data" name="data"><br><br>
+        
+            <label for="hora">Horário</label><br>
+            <input type="time" id="hora" name="hora"><br><br>
+        
+            <label for="pessoas">Número de Pessoas</label><br>
+            <input type="number" id="pessoas" name="pessoas" value="2" min="1"><br><br>
+        
+            <label for="observacoes">Observações</label><br>
+            <textarea id="observacoes" name="observacoes" placeholder="Informações adicionais"></textarea><br><br>
+        
+            <button type="submit">Enviar</button>
+          </form>
+          
+    </aside>
+
+    </div>
     </main>
 
     <footer>

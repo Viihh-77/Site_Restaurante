@@ -1,11 +1,18 @@
 body {
     background-color: white;
     margin: 0px;
+    padding: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px; 
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 a {
@@ -38,7 +45,11 @@ li {
     align-items: center;
     height: 70px;
     width: auto;
-    padding: 10px;
+    font-size: 12px;
+}
+
+.logo h1 {
+    padding-left: 10px;
 }
 
 .conteudoMenu {
@@ -66,11 +77,13 @@ li {
 .conteudoBanner h1 {
     font-size: 35px;
     padding-left: 15px;
+    padding-bottom: 20px;
 }
 
 .conteudoBanner p {
     font-size: 20px;
     padding-left: 15px;
+    padding-bottom: 20px;
 }
 
 .conteudoBanner a {
@@ -109,15 +122,97 @@ li {
 /* Conteudo Principal */
 
 .decoraçao-titulo {
-    padding: 0px;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
-.decoraçao-titulo {
+.lanches-principais {
+    padding: 0px 0px 30px 30px;
     display: flex;
-    font-size: 30px;
-    padding-left: 15px;
-    margin-inline-start: 20px;
-    border-left: 5px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.lanche img {
+    display: flex;
+    align-items: flex-start;
+    height: 250px;
+    width: 300px;
+    padding-bottom: 15px;
+}
+
+.lanche h2 {
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.lanche p {
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.lanche h3 {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.ver-mais {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 7px;
+    width: 60px;
+}
+
+.ver-mais:hover {
+    background-color: black;
+    color: white;
+}
+
+.lanche {
+    padding-top: 30px;
+    padding-right: 75px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+}
+
+.barra-lateral {
+    width: 1350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    height: 830px;
+    box-shadow: 4px 0 5px rgba(0,0,0,0.1);
+}
+
+.barra-lateral h1 {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+.barra-lateral iframe {
+    width: 620px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
 }
 
 /* Rodapé */
