@@ -31,9 +31,9 @@ li {
 }
 
 .botao-reserva {
-    border: 1px solid burlywood;
+    border: 1px solid #D98880;
     padding: 5px 10px;
-    background-color:burlywood;
+    background-color: #D98880;
     border-radius: 12px;
 }
 
@@ -110,13 +110,14 @@ li {
 }
 
 .botao-reserva-banner {
-    border: 1px solid black;
+    border: 1px solid #D98880;
+    color: #D98880;
     padding: 5px 10px;
     border-radius: 7px;
 }
 
 .botao-reserva-banner:hover {
-    background-color: black;
+    background-color: #D98880;
     color: white;
 }
 
@@ -165,14 +166,15 @@ li {
 }
 
 .ver-mais {
-    border: 1px solid black;
+    border: 1px solid #D98880;
+    color: #D98880;
     padding: 5px 10px;
     border-radius: 7px;
     width: 70px;
 }
 
 .ver-mais:hover {
-    background-color: black;
+    background-color: #D98880;
     color: white;
 }
 
@@ -195,9 +197,9 @@ li {
     padding: 30px;
     background-color: white;
     border-radius: 20px;
-    border: 2px solid #ddd;
+    border: 2px solid #D98880	;
     height: auto;
-    box-shadow: 4px 0 5px rgba(0,0,0,0.1);
+    box-shadow: 4px 0 5px #D98880(0,0,0,0.3);
 }
 
 .barra-lateral h1 {
@@ -226,16 +228,13 @@ li {
     width: 625px;
     padding: 5px;
     background-color: white;
-    border-color: black;
-    box-shadow: 5px 0 10px rgba(0,0,0,0.3);
+    border-color: #D98880;
     border-radius: 7px;
 }
 
 .barra-lateral button:hover {
     color: white;
-    background-color: black;
-    border-color: black;
-    box-shadow: 5px 0 10px rgba(0,0,0,0.3);
+    background-color: #D98880;
 }
 
 .barra-lateral label {
@@ -246,7 +245,6 @@ li {
     padding: 5px;
     border-radius: 4px;
     width: 610px;
-    border-color: black;
 }
 
 .barra-lateral textarea {
@@ -318,7 +316,7 @@ li {
 /* Rodapé */
 
 footer {
-    background-color: #FFF3D1;
+    background-color: #D98880;
     padding: 20px;
 }
 
@@ -333,6 +331,7 @@ footer {
 .ediçao-rodape h3 {
     display: flex;
     align-items: baseline;
+    padding-bottom: 20px;
 }
 
 .primeira-coluna {
@@ -373,6 +372,10 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 0px 10px;
+}
+
+.terceira-coluna p {
+    padding-bottom: 10px;
 }
 
 .direitos {
