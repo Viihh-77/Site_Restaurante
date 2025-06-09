@@ -106,7 +106,7 @@ li {
 .botao-banner {
     display: flex;
     align-items: start;
-    padding: 5px;
+    padding-left: 15px;
 }
 
 .botao-reserva-banner {
@@ -312,6 +312,51 @@ li {
     align-items: center;
 }
 
+.novidades {
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.novidades h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.novidades p {
+    padding-bottom: 10px;
+}
+
+.email {
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #D9D9D9;
+    border-radius: 7px;
+    padding: 12px 16px;
+}
+
+.cardapio-titulo {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 60px 0px;
+    font-size: 50px;
+}
+
+.cardapio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.especificaçao {
+    padding: 60px 0px 0px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 40px;
+}
 
 /* Rodapé */
 
